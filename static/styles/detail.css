@@ -1,0 +1,18 @@
+.main-detail .title{
+    text-align: center;
+}
+.sub-info{
+    font-size: 14px;
+    color: #A2A2A2;
+}
+.sub-info span{
+    margin-left: 5px;
+}
+.hot-article a{
+    color: #181616;
+    display: block;
+    line-height: 35px;
+}
+.article-link{
+    padding-top: 30px;
+}

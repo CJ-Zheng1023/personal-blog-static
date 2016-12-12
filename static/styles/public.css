@@ -53,3 +53,13 @@ body{
 .portlet-inner .portlet-header{
     margin: 0 0 30px 0;
 }
+.location li{
+    margin-bottom: 15px;
+}
+.location li i{
+    margin-right: 15px;
+    color: #ccd1d6;
+}
+.location li a{
+    color: #2d844e;
+}
