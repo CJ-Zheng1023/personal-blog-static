@@ -1,6 +1,4 @@
-body.blog-list-body{
-    background-color: #efefef
-}
+
 .main-content-box{
     padding: 0px;
 }
@@ -86,22 +84,6 @@ body.blog-list-body{
 /*
 nav start
 */
-nav.nav-blog{
-    background-color: #b9def0;
-}
-#blog-list ul li.active a{
-    background-color: pink;
-    border-radius: 5px;
-}
-#blog-list  ul li:hover{
-    background-color: pink;
-    border-radius: 5px;
-}
-#blog-list  ul li{
-    text-align: center;
-    margin-right: 3px;
-    margin-bottom: 2px;
-}
 @media(min-width: 992px){
     #blog-list  ul li{
         width: 140px;
