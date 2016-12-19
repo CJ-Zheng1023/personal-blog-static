@@ -45,9 +45,7 @@
     font-size: 14px;
     padding: 8px 12px 3px 5px;
 }
-.main-content-side{
-    padding:0px 0px 0px 10px;
-}
+
 .main-content-side .along-the-way{
     background-color: #fff;
     height:400px;
@@ -139,4 +137,17 @@ nav start
         transform: translateX(0);
         opacity: 1;
     }
+}
+.input-icon{
+    position: relative;
+}
+.input-icon input[type='text']{
+    padding-right: 30px;
+}
+.input-icon .icon{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    color: rgb(226, 223, 223);
+    transform: translateY(-50%);
 }
