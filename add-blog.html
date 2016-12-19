@@ -29,71 +29,94 @@
 
 <div class="main">
     <div class="container">
-        <div class="col-md-8">
-            <div class="portlet">
-                <div class="portlet-inner">
-                    <h2 class="portlet-header">
-                        发布博客
-                        <hr>
-                    </h2>
-                    <div class="portlet-content">
-                        <form class="form-horizontal" role="form" method="post">
-                            <div class="form-group">
-                                <label for="topicCategory" class="col-sm-2 control-label">分类</label>
-                                <div class="col-sm-10">
-                                    <select id="topicCategory" name="category" class="form-control">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="portlet">
+                    <div class="portlet-inner">
+                        <h2 class="portlet-header">
+                            发布博客
+                            <hr>
+                        </h2>
+                        <div class="portlet-content">
+                            <form class="form-horizontal" role="form" method="post">
+                                <div class="form-group">
+                                    <label for="topicCategory" class="col-sm-2 control-label">分类</label>
+                                    <div class="col-sm-10">
+                                        <select id="topicCategory" name="category" class="form-control">
 
 
-                                        <option value="h5">HTML/CSS</option>
+                                            <option value="h5">HTML/CSS</option>
 
-                                        <option value="node">Node.js</option>
+                                            <option value="node">Node.js</option>
 
-                                        <option value="pb">专利业务</option>
+                                            <option value="pb">专利业务</option>
 
-                                        <option value="server">服务器</option>
+                                            <option value="server">服务器</option>
 
-                                        <option value="java">JAVA</option>
+                                            <option value="java">JAVA</option>
 
-                                        <option value="js">javascript</option>
+                                            <option value="js">javascript</option>
 
-                                        <option value="vue">Vue.js</option>
+                                            <option value="vue">Vue.js</option>
 
-                                        <option value="db">数据库</option>
+                                            <option value="db">数据库</option>
 
-                                        <option value="other">其他</option>
+                                            <option value="other">其他</option>
 
 
-                                    </select>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="topicTitle" class="col-sm-2 control-label">标题</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" name="title" id="topicTitle" value="">
+                                <div class="form-group">
+                                    <label for="topicTitle" class="col-sm-2 control-label">标题</label>
+                                    <div class="col-sm-10">
+                                        <input class="form-control" name="title" id="topicTitle" value="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group textarea-wrapper">
-                                <textarea id="content" name="content"></textarea>                            </div>
-                            <div class="clearfix btn-wrapper">
-                                <div class="pull-right">
-                                    <button class="btn btn-primary" type="submit">提交</button>
-                                    <button class="btn btn-default" type="reset">重置</button>
+                                <div class="form-group textarea-wrapper">
+                                    <textarea id="content" name="content"></textarea>                            </div>
+                                <div class="clearfix btn-wrapper">
+                                    <div class="pull-right">
+                                        <button class="btn btn-primary" type="submit">提交</button>
+                                        <button class="btn btn-default" type="reset">重置</button>
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="portlet">
-                <div class="portlet-inner">
-                    <div class="portlet-content">
-                        <ul class="list-unstyled location">
-                            <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Beijing, China</li>
-                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">CJ_Zheng1023@hotmail.com</a></li>
-                            <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">https://github.com/CJ-Zheng1023</a></li>
-                        </ul>
+            <div class="col-md-4">
+                <div class="portlet">
+                    <div class="portlet-inner">
+                        <h2 class="portlet-header">
+                            最近发表
+                            <hr>
+                        </h2>
+                        <div class="portlet-content">
+                            <ul class="list-unstyled hot-article-list">
+                                <li class="hot-article-item">
+                                    <span class="label label-info">1</span>
+                                    <a href="javascript:;">最近发表的文章</a>
+                                </li>
+                                <li class="hot-article-item">
+                                    <span class="label label-info">2</span>
+                                    <a href="javascript:;">最近发表的文章</a>
+                                </li>
+                                <li class="hot-article-item">
+                                    <span class="label label-info">3</span>
+                                    <a href="javascript:;">最近发表的文章</a>
+                                </li>
+                                <li class="hot-article-item">
+                                    <span class="label label-info">4</span>
+                                    <a href="javascript:;">最近发表的文章</a>
+                                </li>
+                                <li class="hot-article-item">
+                                    <span class="label label-info">5</span>
+                                    <a href="javascript:;">最近发表的文章</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
