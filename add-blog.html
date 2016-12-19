@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="static/components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="static/components/summernote/dist/summernote.css"/>
+    <link rel="stylesheet" href="static/styles/public.css"/>
+    <link rel="stylesheet" href="static/styles/add-blog.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <img class="pull-left profile-img" src="static/img/profile.png" />
+        <div class="profile-content pull-left">
+            <h1 class="name">namename</h1>
+            <ul class="social list-inline">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>
+            </ul>
+        </div>
+        <a href="javascript:;" class="btn btn-primary btn-view btn-lg pull-right"><i class="fa fa-eye"></i>view</a>
+    </div>
+</header>
+
+<div class="main">
+    <div class="container">
+        <div class="col-md-8">
+            <div class="portlet">
+                <div class="portlet-inner">
+                    <h2 class="portlet-header">
+                        发布博客
+                        <hr>
+                    </h2>
+                    <div class="portlet-content">
+                        <form class="form-horizontal" role="form" method="post">
+                            <div class="form-group">
+                                <label for="topicCategory" class="col-sm-2 control-label">分类</label>
+                                <div class="col-sm-10">
+                                    <select id="topicCategory" name="category" class="form-control">
+
+
+                                        <option value="h5">HTML/CSS</option>
+
+                                        <option value="node">Node.js</option>
+
+                                        <option value="pb">专利业务</option>
+
+                                        <option value="server">服务器</option>
+
+                                        <option value="java">JAVA</option>
+
+                                        <option value="js">javascript</option>
+
+                                        <option value="vue">Vue.js</option>
+
+                                        <option value="db">数据库</option>
+
+                                        <option value="other">其他</option>
+
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="topicTitle" class="col-sm-2 control-label">标题</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" name="title" id="topicTitle" value="">
+                                </div>
+                            </div>
+                            <div class="form-group textarea-wrapper">
+                                <textarea id="content" name="content"></textarea>                            </div>
+                            <div class="clearfix btn-wrapper">
+                                <div class="pull-right">
+                                    <button class="btn btn-primary" type="submit">提交</button>
+                                    <button class="btn btn-default" type="reset">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portlet">
+                <div class="portlet-inner">
+                    <div class="portlet-content">
+                        <ul class="list-unstyled location">
+                            <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Beijing, China</li>
+                            <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">CJ_Zheng1023@hotmail.com</a></li>
+                            <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">https://github.com/CJ-Zheng1023</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container text-center">
+        <hr>
+        <p>&copy;东软集团</p>
+        <p>已在Github开源：<a href="https://github.com/fandanping/kep" target="_blank">源码</a></p>
+    </div>
+</footer>
+
+
+<script src="static/components/jquery/dist/jquery.min.js"></script>
+<script src="static/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="static/components/summernote/dist/summernote.min.js"></script>
+<script src="static/components/summernote/dist/lang/summernote-zh-CN.min.js"></script>
+<script src="static/scripts/add-blog.js"></script>
+</body>
+</html>
