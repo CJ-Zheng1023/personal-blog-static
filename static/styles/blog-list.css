@@ -95,10 +95,10 @@ nav start
     }
 }
 .left-side{
-    animation: fadeInLeft 0.5s 1;
+    animation: fadeInLeft 1s 1;
 }
 .right-side{
-    animation: fadeInRight 0.5s 1;
+    animation: fadeInRight 1s 1;
 }
 @keyframes fadeInLeft{
     0%{
